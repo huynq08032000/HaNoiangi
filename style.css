@@ -1,13 +1,8 @@
 .container img{
-
     background-repeat: no-repeat;
     width: 100%;
-    position: fixed;
     background-size: cover;
-}
-div{
-    display: block;
-    width: 100vw;
+    height: 700px;
 }
 body{
     margin: 0px ;
@@ -19,7 +14,6 @@ body{
     top: 0%;
     width: 100%;
     align-items: center;
-    justify-content: space-around ;
 
 }
 .button {
@@ -46,6 +40,7 @@ body{
     transition: 0.5s;
 }
 h1 {
+    margin: 0%;
     font-family: 'Pacifico', cursive;
     color: red;
     font-size: 120px;
@@ -55,7 +50,7 @@ h1 {
 }
 .w3-display-middle {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
