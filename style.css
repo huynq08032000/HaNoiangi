@@ -1,14 +1,16 @@
+body{
+    margin: 0px ;
+    height: 700px;
+    width: 100%;
+}
 .container img{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    height: 700px;
-}
-body{
-    margin: 0px ;
     height: 100%;
-    width: 100%;
+    position: fixed;
 }
+
 .content{
     position: absolute ;
     top: 0%;
@@ -43,7 +45,7 @@ h1 {
     margin: 0%;
     font-family: 'Pacifico', cursive;
     color: red;
-    font-size: 120px;
+    font-size: 100px;
 }
 .w3-center {
     text-align: center;
